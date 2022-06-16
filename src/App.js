@@ -1,7 +1,14 @@
+import React from "react";
+import Navbar from "./components/navbar";
+import Form from "./components/form";
+import Content from "./components/content";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navbar />
+      <Form />
+      <Content />
     </div>
   );
 }
